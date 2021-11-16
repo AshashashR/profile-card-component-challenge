@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpg)<img width="648" alt="Capture d’écran 2021-11-16 à 19 48 21" src="https://user-images.githubusercontent.com/78886716/141971873-8857a598-9712-446f-867c-b69b64f3911a.png">
 
 
 ### Links
@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-Thanks to the previous challenges I've done, I could finish this one easily ! I think I understood how to use Flexbox properly !
+Thanks to the previous challenges I've done, I could finish this one easily and fast ! I think I understood how to use Flexbox properly !
 
 ## Author
 
