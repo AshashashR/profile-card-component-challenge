@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    background: url(images/bg-pattern-top.svg) no-repeat, url(images/bg-pattern-bottom.svg) no-repeat;
+    background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+    background-color: var(--dark-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    height: 380px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.container header img {
+    border-radius: 15px 15px 0 0;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: white;
+    margin-top: -3.8rem;
+    margin-bottom: 15px;
+}
+
+
+.profile .name {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.profile .name h2 {
+    color: var(--very-dark-desaturated-blue);
+    font-size: 18px;
+    text-align: center;
+}
+
+.profile .name p {
+    color: var(--dark-grayish-blue);
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.profile .london {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.profile .london p {
+    color: var(--dark-gray);
+    font-size: 14px;
+}
+
+.stats { 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-evenly;
+    border-color: var(--dark-gray);
+    border-top: 1px solid hsl(227, 10%, 46%, 0.3);
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.stats h2 {
+    font-size: 18px;
+    color: var(--very-dark-desaturated-blue);
+    padding-bottom: 5px;
+}
+
+.stats p {
+    color: var(--dark-gray);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.stats .followers {
+    text-align: center;
+}
+
+.stats .likes {
+    text-align: center;
+}
+
+.stats .photos {
+    text-align: center;
+}
+
+
+
+
+
+
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
