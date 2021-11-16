@@ -13,7 +13,7 @@
 
 body {
     background: url(images/bg-pattern-top.svg) no-repeat, url(images/bg-pattern-bottom.svg) no-repeat;
-    background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
     background-color: var(--dark-cyan);
     font-family: 'Kumbh Sans', sans-serif;
     display: flex;
@@ -31,6 +31,7 @@ body {
     height: 380px;
     background-color: white;
     border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px rgb(18, 117, 126, 0.8);
 }
 
 .container header img {
