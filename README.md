@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-challenge-using-flexbox-wIdzHbLAf)
-- Live Site URL: [Add live site URL here](https://ashleyrakotoson.github.io/profile-card-component-challenge/)
+- Live Site URL: [Add live site URL here](https://ashashashr.github.io/profile-card-component-challenge/)
 
 ## My process
 
